@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #8B0000;
+    color: white;
+}
+.Titulo1 {
+    text-align: center;
+
+}
+
+.webport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    min-height: 70vh;
+
+}
+.githubport {
+    width: 150px;
+    height: 150px;
+
+}
+
+.githubport img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Instaport {
+    width: 120px;
+    height: 120px;
+
+
+}
+.Instaport img {
+    width: 100px;
+    height: 100px;
+    margin-top: 13px
+
+}

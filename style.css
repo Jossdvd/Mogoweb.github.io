@@ -15,7 +15,15 @@ html, body {
     align-items: center;
     gap: 30px;
     width: 100%;
-    min-height: 70vh;
+    flex-wrap: wrap;
+    height: 9px
+
+}
+.textoRedes{
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -20px;
 
 }
 .githubport {
@@ -40,4 +48,20 @@ html, body {
     height: 100px;
     margin-top: 13px
 
+}
+
+.Proyectos{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    align-items: center;
+
+
+
+
+}
+
+.Texturepack > a {
+    color: white;
 }
